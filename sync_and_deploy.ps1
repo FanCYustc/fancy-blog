@@ -39,7 +39,7 @@ foreach ($folder in $FoldersToSync) {
         $currentSource,
         $currentDest,
         "/MIR",
-        "/XD", ".obsidian", ".git", ".trash",
+        "/XD", ".obsidian", ".git", ".trash", "lab",
         "/FFT",
         "/R:0",
         "/W:0"
