@@ -1,3 +1,62 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// 1. 字体优化：添加中文字体栈
+:root {
+  --headerFont: "Schibsted Grotesk", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+  --bodyFont: "Source Sans Pro", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+  --codeFont: "IBM Plex Mono", "Fira Code", "Consolas", monospace !important;
+}
+
+// 2. 布局美化：卡片式设计
+// 让中间的内容区域有一个背景色和阴影，与背景区分开
+.center > article {
+  background-color: var(--light);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  margin-bottom: 2rem;
+}
+
+// 让页面的整体背景稍微深一点，以突显卡片（可选，如果觉得太灰可以注释掉）
+body {
+  background-color: var(--lightgray);
+}
+
+// 侧边栏保持透明或微调
+.sidebar {
+  padding-top: 2rem;
+}
+
+// 3. 链接交互美化
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+// 4. Admonition/Callout 美化增强
+// 稍微增加一点圆角和阴影
+blockquote.callout {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+// 5. 图片美化
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.01);
+}
+
+// 修复 Graph 背景，使其透明以适应新的 body 背景
+.graph {
+  background-color: transparent !important;
+}

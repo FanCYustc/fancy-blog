@@ -1,0 +1,104 @@
+---
+aliases: 
+info: 
+date: 2023-01-11-星期三 22:39
+update: 
+tags:
+  - wiki/year2023
+  - wiki/month01
+  - 数学分析/积分
+id: wiki20230111223951
+banner: "![[astrowalk.gif]]"
+---
+---
+[[Wiki - 单变量不定积分]]
+
+## The 1 分部积分
+
+假设 h (x) 与 k (x) 是两个连续 [[Wiki - 函数的连续性]]可导[[Wiki - 函数的导数]]函数。由乘积法则可知
+$$
+\frac{d(hk)}{dx} = \frac{dh}{dx}k + h\frac{dk}{dx}
+$$
+对上述等式两边求不定积分，得
+$$
+hk = \int \left(\frac{dh}{dx}k + h\frac{dk}{dx}\right)dx = \int hdk + \int kdh
+$$
+移项整理，得不定积分形式的分部积分方程
+$$
+\int \frac{dh}{dx}kdx = hk - \int h\frac{dk}{dx}dx
+$$
+由以上等式我们可以推导出分部积分法在区间$[a, A]$的定积分形式
+>[!Note] 定积分形式
+> $$
+> \int_{a}^{A}\frac{dh}{dx}kdx = \left[hk\right]_{a}^{A} - \int_{a}^{A}h\frac{dk}{dx}dx
+> $$
+
+已经积出的部分 $\left[hk\right]_{a}^{A}$ 可以代入上下限\[a, A\]表示为以下等式，
+$$
+\left[hk\right]_{a}^{A} = h(A)k(A) - h(a)k(a)
+$$
+
+而以上这条等式可以通过函数求导乘积法则，以及微积分基本定理通过以下方式倒推并得以验证
+$$
+h(A)k(A) - h(a)k(a) = \int_{a}^{A}\frac{d(hk)}{dx}dx = \int_{a}^{A}\left(\frac{dh}{dx}k + h\frac{dk}{dx}\right)dx = \int_{a}^{A}kdh + \int_{a}^{A}hdk
+$$
+
+
+---
+在传统的微积分教材里分部积分法通常写成不定积分形式：
+$$
+\int f(x)g'(x)dx = f(x)g(x) - \int f'(x)g(x)dx
+$$
+如果更简单些，令 $u = f(x)$、$v = g(x)$，微分 $du = f'(x)dx$ 和 $dv = g'(x)dx$，就可以得到更常见到的形式：
+$$
+\int u\,dv = uv - \int v\,du
+$$
+注意，上面的原式中含有 $g$ 的导数；在使用这个规则时必须先找到不定积分 $g$，并且积分 $\int gf'dx$ 必须是可积的
+
+
+---
+在级数的离散分析中也可以用到类似的公式表达，称为分部求和。
+另一可用的表达方式可以将原表达方式里的因子仅写成 f 和 g，但缺点是引进了镶套积分：
+$$
+\int fg\,dx = f\int g\,dx - \int \left(f' \int g\,dx\right)\,dx
+$$
+这个表达方式只有当 **f 是连续可导而且 g 是连续的时才有效**。
+
+在黎曼-斯蒂尔吉斯积分和勒贝格-斯蒂尔吉斯积分有更多分部积分的公式。[[Wiki - lebesgue积分]]
+
+提示：部分积分下面这样更复杂一点的积分运算里也是有效的：
+$$
+\int u v\,dw = uvw - \int uw\,dv - \int vw\,du
+$$
+
+
+## Cal 1 点火公式
+$$
+\begin{align*}
+\int^{\frac{\pi}{2}}_{0}\sin^{n} xdx=\int^{\frac{\pi}{2}}_{0}\cos^{n} x dx\\
+&= \begin{cases} \frac{n-1}{n}\cdot \frac{n-3}{n-2}...\frac{3}{4}\cdot \frac{1}{2}\cdot \frac{\pi}{2} \ n \mbox{偶}\\ \frac{n-1}{n}\cdot \frac{n-3}{n-2}...\frac{2}{5}\cdot \frac{2}{3}\ \ n \mbox{奇}\\ \end{cases}\\
+&= \begin{cases} \frac{(n-1)!!}{n!!}\cdot \frac{\pi}{2} \  n \mbox{偶}\\ \frac{(n-1)!!}{n!!} \  n \mbox{奇}\\ \end{cases}
+\end{align*}
+$$
+
+[[Wiki - 换元积分]]
+
+## Tip 
+
+```ad-example
+title: Example：求解 $\int e^{-x}\cdot \sin(x)dx$ 
+
+
+1. 换元, 将 $\sin(x)$ 化入dx后, 分部积分
+ $$=-e^{-x}\cdot \cos(x)-\int \cos(x)d(-e^{-x})$$
+2. 换元, 将 $\sin(x)$ 化入dx后, 再次使用分部积分
+$$
+=-e^{-x}\cdot \cos(x)-\Big[e^{-x}\cdot \sin(x)+\int e^{-x}\cdot \sin(x)dx\Big]
+$$
+3. 对两部分分别分部积分后得到相同的原式以及不同的部分, 移项
+$$
+2\int e^{-x}\cdot \sin(x)dx=-e^{-x}\cdot\Big[\sin(x)+\cos(x)\Big]
+$$
+
+
+```

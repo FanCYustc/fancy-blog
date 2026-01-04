@@ -1,0 +1,35 @@
+---
+aliases: 
+info: 
+date: 2024-06-29-星期六 23:35
+update: 
+tags:
+  - wiki/year2022
+  - wiki/month10
+  - 数学分析/微分
+id: wiki20240629233552
+banner: "![[astrowalk.gif]]"
+---
+---
+
+
+[[Wiki - 函数的导数]]
+
+## Def 1 高阶导
+
+y的n阶导数记作
+$$y^{(n)}=\frac{d^ny}{dx^n}$$
+需要保证在x点n阶可导
+
+## 几个无穷阶导数
+
+1. $\big[e^x\big]^{(n)}=e^x$
+2. $\big[sin(x)\big]^{(n)}=sin(x+n\cdot \frac{\pi}{2})$ 
+3. $\big[cos(x)\big]^{(n)}=cos(x+n\cdot \frac{\pi}{2})$ 
+4. $\big[ln(1+x)\big]^{(n)}=(-1)^{n-1}\cdot \frac{(n-1)!}{(1+x)^n}$ (当 $n=1$ 时也成立)
+5. $\big[x^\mu \big]^{(n)}=\mu(\mu-1)(\mu-2)...(\mu-n+1)\cdot x^{\mu-n}$
+6. 满足可加性: $(u\pm v)^{(n)}=u^{(n)}\pm v^{(n)}$
+7. 莱布尼兹公式$$ (u\cdot v)^{(n)}=\displaystyle \sum^{n}_{k=0} C^k_n \cdot u^{(n-k)}\pm v^{(k)}$$
+$n=1$ 时: $(u\cdot v)^{(1)}=u'v+uv'$ 
+$n=2$ 时: $(u\cdot v)^{(2)}=u''v+2u'v'+uv''$ 
+$n=3$ 时: $(u\cdot v)^{(3)}=u'''v+3u''v'+3u'v''+uv'''$ 
