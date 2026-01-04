@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 
 info: dirichlet判别法
 date: 2023-06-29-星期四 21:14

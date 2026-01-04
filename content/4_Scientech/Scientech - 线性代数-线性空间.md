@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: linear space
 info: 23春线性代数B1第5章
 date: 2023-05-18-星期四 22:40

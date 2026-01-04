@@ -54,7 +54,7 @@ banner: "![[astroflow.gif]]"
 - 独立增量性 
 e.g.![[Wiki - poison过程#Def 1 poison 过程]]
 - 平稳增量性 
-e.g. poison过程
+e.g.![[Wiki - poison过程#Def 2 poison 过程]]
 - Markov 性 
 e.g.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: Functions of Several Variables:Their Limits and Continuity 
 info: 23春数学分析B2第9章
 date: 2023-03-06-星期一 16:48

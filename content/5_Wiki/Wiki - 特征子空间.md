@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 
 info: 
 date: 2023-07-03-星期一 21:42
@@ -14,7 +14,9 @@ banner: "![[astrowalk.gif]]"
 
 
 对线性变换 $\mathscr{A}$, [[Wiki - 线性映射|线性变换]]
-$${V_\mathscr{A}}\left( \lambda  \right) = \left\{ {\left. {\left| {\left. {a \in V} \right|} \right.\mathscr{A}a}  =  {\lambda a} \right\}} \right.$$
+$$
+{V_\mathscr{A}}( \lambda) = \left\{ {\left. {\left| {\left. {a \in V} \right|} \right.\mathscr{A}a}  =  {\lambda a} \right\}} \right.
+$$
 
 称为属于特征值λ [[Wiki - 特征值和特征向量]]的特征子空间 [[Wiki - 生成子空间]]（与特征向量的集合不同，还包含零向量）
 

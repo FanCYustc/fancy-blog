@@ -1,17 +1,14 @@
 ---
-aliases:
+aliases: 
 info: 矩阵加法和数乘的性质
 date: 2023-04-07-星期五 23:17
-update:
-tags:
-  - wiki/year2023
-  - wiki/month04
-  - 线性代数/矩阵
+update: 
+tags: [wiki/year2023,wiki/month04]
 id: wiki20230407231705
 banner: "![[astrowalk.gif]]"
 ---
-
 ---
+#线性代数/矩阵 
 
 ## Def1 加法
 

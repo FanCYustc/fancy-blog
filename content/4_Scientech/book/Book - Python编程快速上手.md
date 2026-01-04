@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 
 year: 
 category: 计算机
@@ -151,10 +151,6 @@ for name in Names:
 >%%TAGS%%
 >
 ^uericxnl7y8
-
-[[Wiki - 文本对齐方法]]
-
-[[Wiki - pyperclip拷贝粘贴字符串]]
 
 # 第二部分  自动化任务
 

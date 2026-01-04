@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: The Differential Calculus of Functions of Several Variables 
 info: 23春数学分析B2第十章
 date: 2023-04-28-星期五 21:39

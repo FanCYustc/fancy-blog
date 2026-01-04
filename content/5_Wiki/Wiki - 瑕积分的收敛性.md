@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 
 info: 瑕积分的Cauchy收敛判别，绝对收敛
 date: 2023-07-03-星期一 19:34
@@ -17,7 +17,9 @@ banner: "![[astrowalk.gif]]"
 设 a 为瑕点（在端点发散）
 
 
-            $$\int _a^bf\left( x \right)dx = \mathop {\lim }\limits_{\eta  \to {0^{ + }}} \mathop \int \limits_{a + \eta }^b f\left( x \right)dx$$
+$$
+\int_{a}^{b}f( x )dx = \lim \limits_{\eta\to 0^{ + }}  \int \limits_{a + \eta }^{b} f( x )dx
+$$
 
 将无穷积分 [[Wiki - 无穷区间积分收敛性]]的一套内容进行搬运
 

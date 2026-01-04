@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: linear equations
 info: 23春线性代数B1第三章
 date: 2023-03-13-星期一 21:11
