@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: Python简明教程
 year: 
 category: 计算机

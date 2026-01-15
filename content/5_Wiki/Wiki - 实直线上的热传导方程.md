@@ -29,7 +29,7 @@ $$ \frac{\partial \hat{u}}{\partial t} = -4\pi^2 \xi^2 \hat{u} $$
 解得：
 $$ \hat{u}(\xi, t) = \hat{f}(\xi) e^{-4\pi^2 \xi^2 t} $$
 
-利用反演公式和卷积定理 [[Wiki - Fourier变换的卷积定理]]，解为：
+利用反演公式和卷积定理 [[Wiki - Fourier变换的基本性质#Thm 2 卷积定理]]，解为：
 $$ u(x, t) = (f * \mathcal{H}_t)(x) $$
 其中 $\mathcal{H}_t(x)$ 是**热核 (Heat Kernel)**，它是 $e^{-4\pi^2 \xi^2 t}$ 的逆 Fourier 变换。
 

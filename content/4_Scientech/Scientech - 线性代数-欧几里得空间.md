@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 info: 23春线性代数B1第七章，23秋线性代数B2第五章
 date: 2023-07-04-星期二 23:08
 update: 2023-07-06-Thursday 23:25:32
@@ -7,11 +7,13 @@ tags:
   - scientech/year2023
   - scientech/month07
   - scientech/month12
+  - 几何学
+  - 线性代数/欧式空间
 id: scientech20230704230832
 banner: "![[astrofishing.gif]]"
 ---
 ---
-#线性代数/欧式空间 
+
 
 [[线性代数与解析几何2nd (陈发来).pdf]]
 

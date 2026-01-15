@@ -1,13 +1,13 @@
 ---
-aliases: 
+aliases:
 info: Schwartz空间（速降函数空间）的定义与性质
 date: 2025-12-22-星期一 17:11
-update: 
+update:
 tags:
   - wiki/year2025
   - wiki/month12
   - fourier分析
-  - 数学分析/泛函分析
+  - 泛函分析
 id: wiki20251222171100
 banner: "![[astrowalk.gif]]"
 ---

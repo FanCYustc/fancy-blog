@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: Linear Algebra Done Right
 year: 2015
 category: 数学
@@ -204,7 +204,8 @@ $\mathbb{F}^n$ 都是特殊的 $\mathbb{F}^S$
 [[Wiki - 正定变换]]
 
 将正交变换推广到复数域，称为 isometries, 其本质定义是保持距离不变，但同样有 $TT^{*}=I$ [[Wiki - 正交变换]] [[Wiki - 正交矩阵]]
-[[Scientech - 几何学基础-几何与变换]]
+
+[[Wiki - 等距变换]]
 
 ### Polar decomposition and singular value decomposition
 

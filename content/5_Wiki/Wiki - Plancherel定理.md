@@ -6,8 +6,8 @@ update:
 tags:
   - wiki/year2025
   - wiki/month12
-  - 数学分析/泛函分析
   - fourier分析/fourier变换
+  - 泛函分析
 id: wiki20251222171700
 banner: "![[astrowalk.gif]]"
 ---

@@ -21,7 +21,7 @@ $$\sum_{i\operatorname{=}1}^nA_i(x_1,\cdots,x_n,u)\frac{\partial u}{\partial x_i
 
 ## The 1 解法
 
-转化我 [[Wiki - 一阶齐次线性偏微分方程的解法]]
+转化为 [[Wiki - 一阶齐次线性偏微分方程的解法]]
 
 对
 $$X(x,y,z)\left.\frac{\partial z}{\partial x}+Y(x,y,z)\right.\frac{\partial z}{\partial y}=Z(x,y,z)$$

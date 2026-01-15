@@ -1,12 +1,13 @@
 ---
-aliases: 
-info: 
+aliases:
+info:
 date: 2024-05-29-星期三 19:51
-update: 
+update:
 tags:
   - wiki/year2023
   - wiki/month01
   - 复分析
+  - 数学分析/函数
 id: wiki20240529195114
 banner: "![[astrowalk.gif]]"
 ---

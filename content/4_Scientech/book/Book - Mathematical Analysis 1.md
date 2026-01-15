@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 卓里奇数学分析1
 year: 2022
 sort: 数学
@@ -13,8 +13,6 @@ id: book20221225212150
 ---
 
 [[Mathematical Analysis (vol.1, 2nd edition)__Vladimir A. Zorich.pdf]]
-
-中文版：[[【俄罗斯数学教材选译】7.数学分析（第1卷）【卓里奇】.pdf]]
 
 # 2 The Real Numbers
 

@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 陈发来线代第二版
 year: 2011
 category: 数学
@@ -12,7 +12,6 @@ tags:
   - 线性代数
 id: book20230313210846
 banner: "![[astrogate.gif]]"
-annotation-target:
 ---
 ---
 
@@ -25,6 +24,8 @@ annotation-target:
 ## 第一章-向量与复数
 
 ## 第二章-空间解析几何
+
+[[Book - 几何学基础]]
 
 ## 第三章-线性方程组
 

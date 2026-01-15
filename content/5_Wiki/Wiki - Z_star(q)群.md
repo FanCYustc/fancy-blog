@@ -13,7 +13,7 @@ banner: "![[astrowalk.gif]]"
 
 # Z*(q) 群
 
-$\mathbb{Z}^*(q)$ 表示所有模 $q$ 的单位元（Unit）构成的集合。
+$\mathbb{Z}^*(q)$ 表示所有模 $q$ 的单位元（Unit）构成的集合。[[Wiki - 群]]
 
 如果不清楚模运算，参考 [[Wiki - Z(N)群]]。
 

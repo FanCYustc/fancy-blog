@@ -52,7 +52,7 @@ $$
     $$
     X_t = \sum_{j=0}^\infty a_j \varepsilon_{t-j}, \quad \sum a_j^2 < \infty, a_0=1
     $$
-    其中 εt 是新息序列 [[Wiki - 新息]]。
+    其中 εt 是新息序列 [[Wiki - 新息估计]]。
 3.  **谱密度**：纯非决定性序列具有谱密度，且满足 Kolmogorov 对数可积性条件 [[Wiki - 平稳序列的kolmogorov公式]]。
 
 ## 关联

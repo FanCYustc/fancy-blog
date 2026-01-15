@@ -11,7 +11,6 @@ tags:
   - book/month03
 id: book20230311102923
 banner: "![[astrogate.gif]]"
-annotation-target:
 ---
 ---
 # 第一章经济学的思维方式 (The Economic Way of Thinking)

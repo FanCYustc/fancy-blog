@@ -73,11 +73,20 @@ $$A(x-x_0)+B(y-y_0)+C(z-z_0)=0$$
 $$\frac x a+\frac y b+\frac z c=1 $$
 a b c分别为平面在坐标轴上的截距
 
-### 两平面的夹角
-平面$\Pi_1$ $\vec n_1 =(A_1,B_1,C_1)$
-平面$\Pi_2$ $\vec n_2 =(A_2,B_2,C_2)$
-两平面夹角$\theta$可由下列公式确定
-$$\cos \theta = \frac{|A_1A_2+B_1B_2+C_1C_2|}{\sqrt{A_1^2+C_1^2+C_1^2}\sqrt{A_2^2+C_2^2+C_2^2}}$$
+### 既约形式 (Reduced Forms)
+为了唯一表示平面或直线，常使用既约形式。
+*   **平面**：若 $A \neq 0$，可化为 $x + \frac{B}{A}y + \frac{C}{A}z + \frac{D}{A} = 0$。
+*   **直线**：若方向向量 $u_1 \neq 0$，可化为 $\left\{ \begin{smallmatrix} y = k_1 x + b_1 \\ z = k_2 x + b_2 \end{smallmatrix} \right.$。
 
-- 两平面垂直，则$A_1A_2+B_1B_2+C_1C_2=0$ 
-- 两平面平行，则$\frac{A_1}{A_2}=\frac{B_1}{B_2}=\frac{C_1}{C_2}$  
+### 距离公式汇总
+1.  **原点到平面**：$d = \frac{|D|}{\sqrt{A^2+B^2+C^2}}$。
+2.  **平行平面间距**：$d = \frac{|D_1 - D_2|}{\sqrt{A^2+B^2+C^2}}$（需系数 $A, B, C$ 相同）。
+3.  **点 $A$ 到直线 $l$ (方向 $\vec{u}$, 点 $P \in l$)**：
+    $$ d = \frac{|\vec{u} \times \overrightarrow{PA}|}{|\vec{u}|} $$
+4.  **异面直线 $l_1, l_2$ (方向 $\vec{u}, \vec{v}$, 点 $A \in l_1, B \in l_2$)**：
+    $$ d = \frac{|\overrightarrow{AB} \cdot (\vec{u} \times \vec{v})|}{|\vec{u} \times \vec{v}|} $$
+
+### 线面夹角
+设直线方向为 $\vec{u}$，平面法向为 $\vec{n}$，其夹角 $\theta$ 满足：
+$$ \sin \theta = \frac{|\vec{u} \cdot \vec{n}|}{|\vec{u}| |\vec{n}|} $$
+  

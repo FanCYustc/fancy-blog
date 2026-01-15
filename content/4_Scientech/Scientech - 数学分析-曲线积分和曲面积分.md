@@ -28,6 +28,7 @@ banner: "![[astrofishing.gif]]"
 
 [[Wiki - 曲面积分的换元]]
 
+[[Wiki - 拉梅系数]]
 ### 数量场曲面积分
 
 [[Wiki - 数量场在曲面上的积分]]
@@ -56,6 +57,7 @@ banner: "![[astrofishing.gif]]"
 
 [[Wiki - 曲面的边界]]
 
+[[Wiki - 余切向量]]
 ### 向量场的曲面积分
 
 [[Wiki - 向量场的曲面积分]]

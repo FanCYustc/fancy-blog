@@ -67,11 +67,14 @@ $$
 ### Proof
 
 **证明简述**（$p>1$）：截断 $Y^N = \min\{Y, N\}$，由 Fubini 定理 [[Wiki - Fubini定理]]，
-$$
-\mathbb{E}(Y^N)^p = p \int_0^N \lambda^{p-1} \mathbb{P}\{Y \geq \lambda\} d\lambda \leq p \int_0^N \lambda^{p-2} \mathbb{E}[X ; Y \geq \lambda] d\lambda = \frac{p}{p-1} \mathbb{E}[X (Y^N)^{p-1}]$$
-Hölder 不等式 [[Wiki - Holder不等式]]得 $\mathbb{E}(Y^N)^p \leq \frac{p}{p-1} \|X\|_p \|Y^N\|_{p-1}^{p-1}$，故 $\|Y^N\|_p \leq \frac{p}{p-1}^{1/p} \|X\|_p$。单调收敛定理下 $N \to \infty$ 得结果。$p=1$ 类似，使用 $\ln^+ X$ 处理对数积分。
 
-**注释**：将尾概率不等式转化为L_p范数控制，促进从概率到矩的分析。适用于鞅的最大值估计。
+$$
+\mathbb{E}(Y^N)^p = p \int_0^N \lambda^{p-1} \mathbb{P}\{Y \geq \lambda\} d\lambda \leq p \int_0^N \lambda^{p-2} \mathbb{E}[X ; Y \geq \lambda] d\lambda = \frac{p}{p-1} \mathbb{E}[X (Y^N)^{p-1}]
+$$
+
+Holder 不等式 [[Wiki - Holder不等式]]得 $\mathbb{E}(Y^N)^p \leq \frac{p}{p-1} \|X\|_p \|Y^N\|_{p-1}^{p-1}$，故 $\|Y^N\|_p \leq \frac{p}{p-1}^{1/p} \|X\|_p$。单调收敛定理下 $N \to \infty$ 得结果。$p=1$ 类似，使用 $\ln^+ X$ 处理对数积分。
+
+**注释**：将尾概率不等式转化为 $L_p$ 范数控制，促进从概率到矩的分析。适用于鞅的最大值估计。
 
 ## Theorem 2 L_p Doob 下鞅不等式（L_p Doob Submartingale Inequality）
 
@@ -89,7 +92,7 @@ $$
 
 **证明简述**：$Y = X_n^*$满足$\mathbb{P}\{Y \geq \lambda\} \leq \frac{1}{\lambda} \mathbb{E}[X_n ; Y \geq \lambda]$。直接套用Proposition 5.4得结果。该定理推广Doob不等式到高阶矩，$\frac{p}{p-1}$是最佳常数。
 
-**注释**：核心工具，用于鞅的L_p有界性分析。例如，对$p=2$，$\mathbb{E}[(\sup_{n \leq N} |S_n|)^2]^{1/2} \leq 2 \mathbb{E}[S_N^2]^{1/2}$（Kolmogorov示例）。在连续时间，需右连续路径，支持收敛定理。
+**注释**：核心工具，用于鞅的 $L_p$ 有界性分析。例如，对 $p=2$, $\mathbb{E}[(\sup_{n \leq N} |S_n|)^2]^{1/2} \leq 2 \mathbb{E}[S_N^2]^{1/2}$（Kolmogorov 示例）。在连续时间，需右连续路径，支持收敛定理。
 
 ## Cal 1 
 

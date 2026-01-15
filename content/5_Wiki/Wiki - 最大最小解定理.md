@@ -52,7 +52,7 @@ $$
 $$ 
 
 其中 $\varepsilon_{m} > 0$ 且当 $m\to \infty$ 时 $\varepsilon_{m}$ 单调下降趋于0。
-由 [[Wiki - 皮亚诺存在定理]]，存在 $h_m > 0$（当 $m\to\infty$ 时 $h_m \to h$），使得 $(E_m)$ 有解 $y = \varphi_{m}(x)$。
+由 [[Wiki - 佩亚诺存在定理]]，存在 $h_m > 0$（当 $m\to\infty$ 时 $h_m \to h$），使得 $(E_m)$ 有解 $y = \varphi_{m}(x)$。
 可取正数 $\sigma < h$，使得 $(E)$ 和 $(E_m)$ 的解都在区间 $I: |x - x_0| \leqslant \sigma$ 上存在。
 
 2、**应用 Ascoli 引理**

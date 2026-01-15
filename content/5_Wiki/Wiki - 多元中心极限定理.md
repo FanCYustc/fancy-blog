@@ -31,5 +31,5 @@ $$
 
 还是转化成一维情况 
 
-[[Wiki - linderberg中心极限定理]]
+[[Wiki - Lindeberg中心极限定理]]
 

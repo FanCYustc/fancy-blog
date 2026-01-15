@@ -1,4 +1,4 @@
-﻿---
+---
 aliases: 
 info: 双侧曲面及定向
 date: 2023-06-29-星期四 10:16
@@ -30,7 +30,7 @@ banner: "![[astrowalk.gif]]"
 
 称 S 是**定向曲面，当 S 可定向**，且规定一个面是正面
 
-不可定向的曲面：莫比乌斯带（见几何学基础）
+不可定向的曲面：莫比乌斯带[[Wiki - 莫比乌斯带与单侧曲面]]
 
                     $$\begin{array}{*{20}{c}}{S:\vec r  \left( {u,v} \right) = \left( {x\left( {u,v } \right),y\left( {u,v } \right),z\left( {u,v} \right)} \right)}\\{{{\vec r}_u} \times {{\vec r}_\nu } = \left( {\frac{{\partial \left( {y,z} \right)}}{{\partial \left( {u,v} \right)}},\frac{{\partial \left( {z,x} \right)}}{{\partial \left( {u,v } \right)}},\frac{{\partial \left( {x,y} \right)}}{{\partial \left( {u,v} \right)}}} \right)}\end{array}$$
 

@@ -1,8 +1,9 @@
 ---
-aliases: 
+aliases:
+  - 欧式空间
 info: 欧几里得空间的定义
 date: 2023-07-06-星期四 22:03
-update: 
+update:
 tags:
   - wiki/year2023
   - wiki/month07
@@ -18,13 +19,6 @@ banner: "![[astrowalk.gif]]"
 定义了内积 [[Wiki - 内积]]的实数域 [[Wiki - 数域]]上的线性空间 [[Scientech - 线性代数-线性空间]]称为欧几里得空间
 
 [[Wiki - 一般线性空间]]
-
-[[Scientech - 几何学基础-向量与欧式空间]]
-
-
----
-
-
 ## Def 1 Euclidean Space  
 ```ad-definition  
 title: Definition 1  
