@@ -68,7 +68,7 @@ $$
 所以 $Y_{1}$ 和 $\sum_{k=2}^{n}Y_{k}^{2}$ 独立 [[Wiki - 随机变量的独立性]]
 
 $$
-\sum_{k=2}^{n}Y_{k}^{2}=\sum_{k=1}^{n}Y_{k}^{2}- \frac{1}{n}\left( \sum_{k=1}^{n}X_{k}^{2} \right)=\sum_{k=1}^{n}X_{k}^{2}-n\overline{X}^{2}=\sum_{k=1}^{n}(X_{k}-\overline{X})^{2}
+\sum_{k=2}^{n}Y_{k}^{2}=\sum_{k=1}^{n}Y_{k}^{2}- \frac{1}{n}\left( \sum_{k=1}^{n}X_{k} \right)^{2}=\sum_{k=1}^{n}X_{k}^{2}-n\overline{X}^{2}=\sum_{k=1}^{n}(X_{k}-\overline{X})^{2}
 $$
 
 由正交变换不改变对角元平方和[[Wiki - 正交变换]]
